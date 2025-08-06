@@ -1,95 +1,100 @@
-# Hey there, I'm Sai Kiran! 👨‍💻
-
-**Software Engineer 3 @ FactSet** | **Full-Stack Architect** | **Cloud Native Enthusiast**
-
-Currently architecting scalable financial data platforms and leading digital transformation initiatives in Hyderabad, India.
-
----
-
-## 🚀 What I'm Building
-
-**Right Now:**
-- 🤖 Building AI Agents for chat and browser automation (exploring autonomous workflows!)
-- 🔄 Leading .NET to Go migration at FactSet (improving performance and resource efficiency!)
-- 🏗️ Architecting cloud-native microservices with enhanced scalability (40% improvement!)
-- ⚡ Optimizing high-performance financial dashboards with Vue 3 & TypeScript
-
-**Recently Shipped:**
-- 🚀 Successfully migrated critical .NET services to Go (significant performance gains!)
-- 🤖 AI-powered document search with vector embeddings (1M+ documents, 95% accuracy)
-- 📊 Implemented comprehensive observability with Grafana (60% faster incident resolution)
-- 🎯 Built AI support system automating 40% of tier-1 requests
-
----
-
-## 💡 My Tech Stack
-
-**Languages & Frameworks**  
-TypeScript • Python • Java • Go • React • Vue.js • Node.js • .NET Core
-
-**Cloud & DevOps**  
-AWS • Kubernetes • Docker • Terraform • CI/CD • Microservices Architecture
-
-**Data & AI**  
-Elasticsearch • Vector Databases • MongoDB • PostgreSQL • OpenAI • BERT
-
-**Specializations**  
-System Design • Performance Optimization • Distributed Systems • Observability
-
----
-
-## 📈 Impact & Growth
-
-🎯 **3+ Years of Evolution**: From trainee to senior engineer, consistently delivering scalable solutions  
-💰 **Cost Optimization**: Reduced operational costs by 25% through smart architecture decisions  
-⚡ **Performance**: Achieved 50% page load time improvements on data-intensive applications  
-👥 **Team Impact**: Led initiatives improving team productivity by 20%  
-🏆 **Recognition**: Star Award recipient at FactSet for outstanding technical leadership
-
----
-
-## 🛠️ Featured Projects
-
-### 🔍 **Distributed Document Search Engine**
-Scalable search system processing 500GB+ data with Elasticsearch & BERT models  
-*Kafka • Kubernetes • 5x throughput improvement*
-
-### 🤝 **Real-time Collaboration Platform**  
-Full-stack application with WebSockets, OAuth 2.0, and advanced caching  
-*Node.js • MongoDB • React • 40% database load reduction*
-
-### 💓 **Health Monitoring System**  
-AI-powered anomaly detection for biometric data with 85% accuracy  
-*Fitbit API • Statistical Models • Cloud Backend*
-
----
-
-## 📊 GitHub Analytics
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Sai%20Kiran%20Gonugunta&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
 
 <div align="center">
-  
-![Sai Kiran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=skiran252&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=skiran252&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)
+### 🚀 Software Engineer 3 @ FactSet | AI Agent Builder | Go Migration Expert
+
+*Transforming financial systems one microservice at a time*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/saikiran-gonugunta)
+[![Email](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:skiran252@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/u/skiran252/)
+
+![Profile Views](https://komarev.com/ghpvc/?username=skiran252&color=brightgreen&style=flat-square)
 
 </div>
 
 ---
 
-## 🌟 Let's Connect & Collaborate
+## 🔮 What I'm Crafting Right Now
 
-I'm passionate about building scalable systems, mentoring fellow developers, and exploring the intersection of AI and traditional software engineering.
+```diff
++ 🤖 Building AI Agents that can browse the web and automate complex workflows
++ 🔄 Leading .NET → Go migration at FactSet (because performance matters!)  
++ 🏗️ Architecting cloud-native microservices that scale like crazy
++ ⚡ Making financial dashboards blazingly fast with Vue 3
+```
 
-**Currently exploring:** AI Agents and autonomous workflows, Go for scalable backend architecture, advanced vector search implementations, and modern DevOps practices.
+## 💥 Recent Wins That Made Me Proud
 
-**Open to:** Technical discussions, collaboration opportunities, and sharing knowledge about system design and cloud architecture.
+🚀 **Successfully migrated critical .NET services to Go** → Unlocked serious performance gains  
+🤖 **Built AI-powered document search** → 1M+ docs, 95% accuracy, customers love it  
+📊 **Implemented full observability stack** → Cut incident resolution time by 60%  
+🎯 **Created AI support system** → Now handles 40% of tier-1 requests automatically  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saikiran-gonugunta)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:skiran252@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/skiran252/)
+---
+
+## ⚔️ My Arsenal
+
+**Languages I Speak Fluently**
+```
+TypeScript/JavaScript  ████████████████████████████████████████   100%
+Python                 ████████████████████████████████████████   100%
+Java                   ███████████████████████████████████       85%
+Go                     ██████████████████████████                70%
+```
+
+**Where I Build Cool Stuff**
+> **Frontend:** React, Vue.js, TypeScript, Modern CSS  
+> **Backend:** Node.js, Go, .NET Core, Express, gRPC  
+> **Cloud & DevOps:** AWS, Kubernetes, Docker, Terraform  
+> **Data & AI:** Elasticsearch, Vector DBs, OpenAI, BERT  
+
+---
+
+## 🎯 Projects That Keep Me Up At Night (In a Good Way!)
+
+### 🔍 **Distributed Search Beast**
+*Elasticsearch + BERT models processing 500GB+ data*  
+**Impact:** 5x throughput improvement, Kubernetes auto-scaling magic
+
+### 🤝 **Real-time Collaboration Hub** 
+*Full-stack with WebSockets, OAuth 2.0, smart caching*  
+**Impact:** 40% database load reduction during peak hours
+
+### 💓 **Health AI Monitor**
+*Biometric anomaly detection with 85% accuracy*  
+**Impact:** Early warning system for 1K+ daily active users
 
 ---
 
 <div align="center">
-  <i>"Building the future, one commit at a time"</i>
+
+## 📊 My GitHub Journey
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=skiran252&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skiran252&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+## 🌟 What Drives Me
+
+**Currently obsessed with:** AI Agents, autonomous workflows, Go's concurrency model, and making complex systems simple
+
+**Always learning:** New ways to optimize performance, scale systems, and build AI that actually helps people
+
+**Love discussing:** System architecture, AI/ML applications, DevOps best practices, and the future of software engineering
+
+---
+
+<div align="center">
+
+### 💬 Let's Build Something Amazing Together!
+
+*"The best way to predict the future is to build it"*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+
 </div>
