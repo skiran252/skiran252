@@ -9,31 +9,32 @@ Currently architecting scalable financial data platforms and leading digital tra
 ## 🚀 What I'm Building
 
 **Right Now:**
-- 🏗️ Leading migration of monolithic systems to cloud-native microservices (40% scalability improvement!)
-- 🤖 Building AI-powered document search with vector embeddings (1M+ documents, 95% accuracy)
+- 🤖 Building AI Agents for chat and browser automation (exploring autonomous workflows!)
+- 🔄 Leading .NET to Go migration at FactSet (improving performance and resource efficiency!)
+- 🏗️ Architecting cloud-native microservices with enhanced scalability (40% improvement!)
 - ⚡ Optimizing high-performance financial dashboards with Vue 3 & TypeScript
 
 **Recently Shipped:**
-- 🔧 Migrated critical .NET Framework APIs to .NET Core (25% performance boost)
+- 🚀 Successfully migrated critical .NET services to Go (significant performance gains!)
+- 🤖 AI-powered document search with vector embeddings (1M+ documents, 95% accuracy)
 - 📊 Implemented comprehensive observability with Grafana (60% faster incident resolution)
 - 🎯 Built AI support system automating 40% of tier-1 requests
 
 ---
 
-## 💡 My Expertise
+## 💡 My Tech Stack
 
-```typescript
-const saiKiran = {
-  architecture: ["Microservices", "Event-Driven", "Cloud-Native"],
-  languages: ["TypeScript", "Python", "Java", "Go"],
-  frontend: ["React", "Vue.js", "Modern CSS"],
-  backend: ["Node.js", "Express", ".NET Core", "gRPC"],
-  cloud: ["AWS", "Kubernetes", "Docker", "Terraform"],
-  data: ["Elasticsearch", "Vector DBs", "MongoDB", "PostgreSQL"],
-  ai: ["OpenAI", "BERT", "Document Processing", "Anomaly Detection"],
-  practices: ["TDD", "CI/CD", "Infrastructure as Code", "Observability"]
-};
-```
+**Languages & Frameworks**  
+TypeScript • Python • Java • Go • React • Vue.js • Node.js • .NET Core
+
+**Cloud & DevOps**  
+AWS • Kubernetes • Docker • Terraform • CI/CD • Microservices Architecture
+
+**Data & AI**  
+Elasticsearch • Vector Databases • MongoDB • PostgreSQL • OpenAI • BERT
+
+**Specializations**  
+System Design • Performance Optimization • Distributed Systems • Observability
 
 ---
 
@@ -79,7 +80,7 @@ AI-powered anomaly detection for biometric data with 85% accuracy
 
 I'm passionate about building scalable systems, mentoring fellow developers, and exploring the intersection of AI and traditional software engineering.
 
-**Currently exploring:** Generative AI applications in financial technology, advanced vector search implementations, and modern DevOps practices.
+**Currently exploring:** AI Agents and autonomous workflows, Go for scalable backend architecture, advanced vector search implementations, and modern DevOps practices.
 
 **Open to:** Technical discussions, collaboration opportunities, and sharing knowledge about system design and cloud architecture.
 
