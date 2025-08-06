@@ -2,8 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Sai%20Kiran%20Gonugunta&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
 
-### 🚀 Software Engineer 3 @ FactSet | AI Agent Builder | Go Migration Expert
-
+### 🚀 Software Engineer 3 @ FactSet | Building AI Agents | Python | Golang
 *Transforming financial systems one microservice at a time*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/saikiran-gonugunta)
