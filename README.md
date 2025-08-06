@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Sai%20Kiran%20Gonugunta&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
 
-### 🚀 Software Engineer 3 @ FactSet | AI Agent Builder | Go Migration Expert
+### 🚀 Software Engineer 3 @ FactSet | AI Agent Builder | Python | Vue | GoLang
 
 *Transforming financial systems one microservice at a time*
 
