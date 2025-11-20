@@ -14,7 +14,6 @@ export default {
       },
       fontFamily: {
         mono: ['"Fira Code"', "monospace"],
-        sans: ['"Inter"', "sans-serif"],
       },
     },
   },

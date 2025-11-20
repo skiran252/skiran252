@@ -6,4 +6,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: './', // Use relative paths for flexibility in deployment
-})
+  resolve: {
+    alias: {
+      'react/jsx-runtime': 'react/jsx-runtime.js',
+    },
+  },

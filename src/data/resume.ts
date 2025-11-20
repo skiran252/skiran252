@@ -11,7 +11,7 @@ export const resumeData = {
             github: "https://github.com/skiran252" // Placeholder inferred
         }
     },
-    summary: "Software Engineer specializing in AI Agents, Distributed Systems, and Full Stack Development. Experienced in building scalable microservices, computer vision pipelines, and autonomous browser agents.",
+    summary: "Software Engineer specializing in AI Agents, Full Stack Development, and Backend Systems. Experienced in building efficient microservices, computer vision pipelines, and autonomous browser agents.",
     experience: [
         {
             company: "PerceptEye.ai",
@@ -30,9 +30,9 @@ export const resumeData = {
             role: "Software Engineer 3",
             location: "Hyderabad, India",
             period: "Oct 2024 – Aug 2025",
-            description: "Architected microservices migration and implemented vector search platforms.",
+            description: "Contributed to microservices migration and implemented vector search platforms.",
             achievements: [
-                "Architected migration from monolithic Perl application to AWS microservices, improving scalability by 40% and reducing costs by 25%.",
+                "Contributed to migration from monolithic Perl application to AWS microservices, improving maintainability and reducing costs by 25%.",
                 "Implemented vector search platform for 1M+ financial documents using OpenAI embeddings with 95% search accuracy.",
                 "Rebuilt API layer from .NET Framework to .NET Core, delivering 25% performance improvement for 5+ microservices."
             ]
@@ -70,13 +70,13 @@ export const resumeData = {
         {
             title: "Distributed Document Search Engine",
             tech: ["Elasticsearch", "BERT", "Kafka", "Java"],
-            description: "Built scalable document indexing system processing 500GB+ data using Elasticsearch and BERT models; implemented Kafka pipeline with 5x throughput improvement."
+            description: "Built document indexing system processing 500GB+ data using Elasticsearch and BERT models; implemented Kafka pipeline with 5x throughput improvement."
         }
     ],
     skills: {
-        programming: ["TypeScript", "JavaScript", "Python", "Java", "Go", "C++", "React", "Vue.js", "Node.js", "Express", "REST API"],
+        programming: ["TypeScript", "JavaScript", "Python", "Java", "C++", "React", "Vue.js", "Node.js", "Express", "REST API"],
         ai_ml: ["Computer Vision", "YOLOv8", "CLIP", "Tesseract OCR", "OpenAI APIs", "Vector databases", "Training pipelines"],
-        cloud: ["AWS (Lambda, EC2, S3, DynamoDB)", "Kubernetes", "Docker", "Terraform", "CI/CD", "Microservices"],
+        cloud: ["AWS (Lambda, EC2, S3, DynamoDB)", "Docker", "Terraform", "CI/CD", "Microservices"],
         data_tools: ["Elasticsearch", "MongoDB", "PostgreSQL", "Redis", "Chrome Extensions", "WebSockets", "System design"]
     },
     education: {
