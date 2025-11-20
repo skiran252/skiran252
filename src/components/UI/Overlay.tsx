@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { resumeData } from '../../data/resume';
 
 const Section = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
-  <section className={`min-h-screen w-full flex flex-col justify-center p-8 md:p-20 ${className}`}>
+  <section className={`min-h-[60vh] md:min-h-screen w-full flex flex-col justify-center p-8 md:p-20 ${className}`}>
     {children}
   </section>
 );
