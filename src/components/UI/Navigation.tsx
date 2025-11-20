@@ -25,7 +25,11 @@ export default function Navigation() {
             className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-lg border-b border-white/10"
         >
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-                <div className="font-mono text-cyan-400 font-bold">SK.DEV</div>
+                <div className="font-bold text-lg">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
+                        Saikiran Gonugunta
+                    </span>
+                </div>
 
                 <div className="hidden md:flex gap-6">
                     {navItems.map((item) => (
@@ -33,8 +37,8 @@ export default function Navigation() {
                             key={item.id}
                             onClick={() => scrollToSection(item.id)}
                             className={`font-mono text-sm transition-colors ${activeSection === item.id
-                                    ? 'text-cyan-400'
-                                    : 'text-gray-400 hover:text-white'
+                                ? 'text-cyan-400'
+                                : 'text-gray-400 hover:text-white'
                                 }`}
                         >
                             {item.label}
