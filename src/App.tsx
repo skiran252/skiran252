@@ -18,9 +18,9 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white relative">
+    <div className="w-full h-screen bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white relative">
       {/* Static gradient overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-b from-cyan-950/20 via-transparent to-purple-950/20 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/10 via-transparent to-purple-500/10 pointer-events-none" />
 
       {/* Navigation */}
       <Navigation />

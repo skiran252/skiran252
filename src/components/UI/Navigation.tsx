@@ -22,23 +22,21 @@ export default function Navigation() {
         <motion.nav
             initial={{ y: -100 }}
             animate={{ y: 0 }}
-            className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-lg border-b border-white/10"
+            className="fixed top-0 left-0 right-0 z-50 bg-white/5 backdrop-blur-md border-b border-white/5"
         >
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-                <div className="font-bold text-lg">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
-                        Saikiran Gonugunta
-                    </span>
+                <div className="font-['Playfair_Display'] font-bold text-xl text-white/90 tracking-tight">
+                    Saikiran Gonugunta
                 </div>
 
-                <div className="hidden md:flex gap-6">
+                <div className="hidden md:flex gap-8">
                     {navItems.map((item) => (
                         <button
                             key={item.id}
                             onClick={() => scrollToSection(item.id)}
-                            className={`font-mono text-sm transition-colors ${activeSection === item.id
-                                ? 'text-cyan-400'
-                                : 'text-gray-400 hover:text-white'
+                            className={`text-sm font-medium transition-all duration-300 ${activeSection === item.id
+                                ? 'text-white'
+                                : 'text-white/50 hover:text-white/80'
                                 }`}
                         >
                             {item.label}
@@ -47,7 +45,7 @@ export default function Navigation() {
                 </div>
 
                 {/* Mobile menu button */}
-                <button className="md:hidden text-cyan-400">☰</button>
+                <button className="md:hidden text-white/80">☰</button>
             </div>
         </motion.nav>
     );
