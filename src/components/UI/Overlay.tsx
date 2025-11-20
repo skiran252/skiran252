@@ -45,7 +45,7 @@ export default function Overlay() {
 
           <p className="text-xl md:text-2xl text-white/60 max-w-2xl leading-relaxed font-light">
             Hi, I'm <span className="text-white font-medium">{resumeData.personalInfo.name}</span>.
-            An engineer bridging the gap between <span className="text-indigo-300">robust systems</span> and <span className="text-rose-300">organic intelligence</span>.
+            A <span className="text-white font-medium">Full-stack Software Engineer</span> building <span className="text-indigo-300">autonomous AI agents</span> and <span className="text-rose-300">scalable systems</span>.
           </p>
         </motion.div>
       </Section>
