@@ -6,9 +6,9 @@ export const resumeData = {
         email: "skiran252@gmail.com",
         phone: "+91 86399 30114",
         links: {
-            linkedin: "https://linkedin.com/in/skiran252", // Placeholder inferred
-            leetcode: "https://leetcode.com/skiran252", // Placeholder inferred
-            github: "https://github.com/skiran252" // Placeholder inferred
+            linkedin: "https://www.linkedin.com/in/saikiran-gonugunta/",
+            leetcode: "https://leetcode.com/skiran252",
+            github: "https://github.com/skiran252"
         }
     },
     summary: "Software Engineer specializing in AI Agents, Full Stack Development, and Backend Systems. Experienced in building efficient microservices, computer vision pipelines, and autonomous browser agents.",
