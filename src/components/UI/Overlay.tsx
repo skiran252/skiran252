@@ -44,8 +44,8 @@ export default function Overlay() {
       <Section className="items-end text-right">
         <motion.div
           initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.2 }}
           className="max-w-3xl"
         >
           <GlassCard>
@@ -74,8 +74,8 @@ export default function Overlay() {
       <Section>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.4 }}
           className="w-full max-w-5xl"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-12 text-purple-500 pl-8">Processing Data</h2>
@@ -103,8 +103,8 @@ export default function Overlay() {
       <Section className="items-center text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-12 text-cyan-400">Output Generated</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl">
@@ -128,8 +128,8 @@ export default function Overlay() {
       <Section className="justify-center items-center">
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
           className="text-center"
         >
           <GlassCard className="px-12 py-12">
