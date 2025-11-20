@@ -8,71 +8,70 @@ function GlassShapes() {
     return (
         <group>
             {/* Main Centerpiece - Large Torus */}
-            <Float speed={1.5} rotationIntensity={1.5} floatIntensity={2}>
+            <Float speed={2} rotationIntensity={1} floatIntensity={1}>
                 <mesh position={[0, 0, 0]} rotation={[0, 0, Math.PI / 4]}>
                     <torusGeometry args={[2.5, 0.8, 16, 100]} />
                     <MeshTransmissionMaterial
                         backside
-                        backsideThickness={5}
-                        thickness={2}
-                        roughness={0}
-                        transmission={1}
+                        backsideThickness={1}
+                        thickness={3}
+                        roughness={0.2}
+                        transmission={0.6}
                         ior={1.5}
                         chromaticAberration={1}
-                        anisotropy={0.5}
-                        distortion={0.5}
+                        anisotropy={0.1} // Reduced
+                        distortion={0.2}
                         distortionScale={0.5}
                         temporalDistortion={0.1}
-                        color="#ffffff"
-                        background={new THREE.Color('#050505')}
+                        color="#c7d2fe"
+                        resolution={512} // Optimized
+                        samples={4} // Optimized
                     />
                 </mesh>
             </Float>
 
             {/* Floating Crystal - Icosahedron */}
-            <Float speed={2} rotationIntensity={2} floatIntensity={1.5}>
+            <Float speed={3} rotationIntensity={2} floatIntensity={2}>
                 <mesh position={[-3, 2, -2]}>
                     <icosahedronGeometry args={[1, 0]} />
                     <MeshTransmissionMaterial
                         backside
-                        thickness={1.5}
-                        roughness={0.1}
-                        transmission={1}
+                        thickness={2}
+                        roughness={0.2}
+                        transmission={0.6}
                         ior={1.5}
                         chromaticAberration={0.5}
-                        anisotropy={0.5}
-                        color="#a2d2ff"
+                        anisotropy={0.1} // Reduced
+                        color="#fbcfe8"
+                        resolution={512} // Optimized
+                        samples={4} // Optimized
                     />
                 </mesh>
             </Float>
 
             {/* Floating Sphere */}
-            <Float speed={1} rotationIntensity={1} floatIntensity={2}>
+            <Float speed={2} rotationIntensity={1} floatIntensity={2}>
                 <mesh position={[3, -1, -3]}>
                     <sphereGeometry args={[1, 32, 32]} />
                     <MeshTransmissionMaterial
                         backside
-                        thickness={1}
-                        roughness={0}
-                        transmission={1}
+                        thickness={2}
+                        roughness={0.2}
+                        transmission={0.6}
                         ior={1.2}
                         chromaticAberration={0.8}
-                        anisotropy={0.5}
-                        color="#ffc8dd"
+                        anisotropy={0.1} // Reduced
+                        color="#bae6fd"
+                        resolution={512} // Optimized
+                        samples={4} // Optimized
                     />
-                </mesh>
-            </Float>
-
-            {/* Background Accent Shapes (Opaque) */}
-            <Float speed={0.8} rotationIntensity={0.5} floatIntensity={0.5}>
-                <mesh position={[4, 3, -5]} scale={0.5}>
-                    <octahedronGeometry />
-                    <meshStandardMaterial color="#7000ff" roughness={0.2} metalness={1} />
                 </mesh>
             </Float>
         </group>
     );
 }
+
+
 
 function NeuralNetwork() {
     const points = useMemo(() => {
@@ -164,23 +163,29 @@ function Narrative() {
     const aiRef = useRef<THREE.Group>(null!);
 
     useFrame(() => {
-        const r1 = scroll.range(0, 0.3); // Prism visibility
-        const r2 = scroll.curve(0.3, 0.4); // Neural visibility
-        const r3 = scroll.range(0.7, 0.3); // AI visibility
+        const r1 = scroll.range(0, 0.35); // Prism visibility - stays longer
+        const r2 = scroll.curve(0.25, 0.5); // Neural visibility - overlaps
+        const r3 = scroll.range(0.6, 0.4); // AI visibility - starts earlier
 
         if (prismRef.current) {
-            prismRef.current.position.y = r1 * 5; // Move up
-            prismRef.current.scale.setScalar(1 - r1); // Shrink
+            // Prism moves up but stays visible longer
+            prismRef.current.position.y = r1 * 8;
+            prismRef.current.scale.setScalar(1 - r1 * 0.8); // Don't disappear completely
+            prismRef.current.rotation.x = r1 * 0.5;
         }
 
         if (neuralRef.current) {
-            neuralRef.current.scale.setScalar(r2 * 1.5);
-            neuralRef.current.rotation.y += 0.01;
+            // Neural network pulses and rotates
+            neuralRef.current.scale.setScalar(r2 * 1.8);
+            neuralRef.current.rotation.y += 0.005;
+            neuralRef.current.position.z = -2 + Math.sin(scroll.offset * Math.PI) * 2;
         }
 
         if (aiRef.current) {
-            aiRef.current.position.z = -5 + (r3 * 5); // Move forward
+            // AI Core moves in from back
+            aiRef.current.position.z = -8 + (r3 * 8);
             aiRef.current.scale.setScalar(r3);
+            aiRef.current.rotation.y += 0.02;
         }
     });
 
