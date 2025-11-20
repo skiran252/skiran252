@@ -23,6 +23,7 @@ export default function Overlay() {
   return (
     <div className="w-full text-white font-mono selection:bg-cyan-500/30">
       {/* HERO SECTION: The Hook */}
+      <div id="hero" />
       <Section className="items-start">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,6 +51,7 @@ export default function Overlay() {
       </Section>
 
       {/* ORIGIN STORY: The "Why" */}
+      <div id="mission" />
       <Section className="items-end">
         <motion.div
           initial={{ opacity: 0, x: 50 }}
@@ -96,6 +98,7 @@ export default function Overlay() {
       </Section>
 
       {/* EXPERIENCE: The Journey */}
+      <div id="journey" />
       <Section>
         <div className="w-full max-w-6xl mx-auto">
           <motion.h2
@@ -148,6 +151,7 @@ export default function Overlay() {
       </Section>
 
       {/* PROJECTS: The Innovations */}
+      <div id="innovations" />
       <Section className="items-center">
         <div className="w-full max-w-7xl">
           <motion.h2
@@ -193,6 +197,7 @@ export default function Overlay() {
       </Section>
 
       {/* CONTACT: The Future */}
+      <div id="connect" />
       <Section className="justify-center items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
