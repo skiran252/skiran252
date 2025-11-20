@@ -1,99 +1,73 @@
-<div align="center">
+# React + TypeScript + Vite
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Sai%20Kiran%20Gonugunta&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### 🚀 Software Engineer 3 @ FactSet | Building AI Agents | Python | Golang
-*Transforming financial systems one microservice at a time*
+Currently, two official plugins are available:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/saikiran-gonugunta)
-[![Email](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:skiran252@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/u/skiran252/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-![Profile Views](https://komarev.com/ghpvc/?username=skiran252&color=brightgreen&style=flat-square)
+## React Compiler
 
-</div>
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🔮 What I'm Crafting Right Now
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```diff
-+ 🤖 Building AI Agents that can browse the web and automate complex workflows
-+ 🔄 Leading .NET → Go migration at FactSet (because performance matters!)  
-+ 🏗️ Architecting cloud-native microservices that scale like crazy
-+ ⚡ Making financial dashboards blazingly fast with Vue 3
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
 
-## 💥 Recent Wins That Made Me Proud
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-🚀 **Successfully migrated critical .NET services to Go** → Unlocked serious performance gains  
-🤖 **Built AI-powered document search** → 1M+ docs, 95% accuracy, customers love it  
-📊 **Implemented full observability stack** → Cut incident resolution time by 60%  
-🎯 **Created AI support system** → Now handles 40% of tier-1 requests automatically  
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
----
-
-## ⚔️ My Arsenal
-
-**Languages I Speak Fluently**
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
-TypeScript/JavaScript  ████████████████████████████████████████   100%
-Python                 ████████████████████████████████████████   100%
-Java                   ███████████████████████████████████       85%
-Go                     ██████████████████████████                70%
-```
-
-**Where I Build Cool Stuff**
-> **Frontend:** React, Vue.js, TypeScript, Modern CSS  
-> **Backend:** Node.js, Go, .NET Core, Express, gRPC  
-> **Cloud & DevOps:** AWS, Kubernetes, Docker, Terraform  
-> **Data & AI:** Elasticsearch, Vector DBs, OpenAI, BERT  
-
----
-
-## 🎯 Projects That Keep Me Up At Night (In a Good Way!)
-
-### 🔍 **Distributed Search Beast**
-*Elasticsearch + BERT models processing 500GB+ data*  
-**Impact:** 5x throughput improvement, Kubernetes auto-scaling magic
-
-### 🤝 **Real-time Collaboration Hub** 
-*Full-stack with WebSockets, OAuth 2.0, smart caching*  
-**Impact:** 40% database load reduction during peak hours
-
-### 💓 **Health AI Monitor**
-*Biometric anomaly detection with 85% accuracy*  
-**Impact:** Early warning system for 1K+ daily active users
-
----
-
-<div align="center">
-
-## 📊 My GitHub Journey
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=skiran252&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skiran252&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 🌟 What Drives Me
-
-**Currently obsessed with:** AI Agents, autonomous workflows, Go's concurrency model, and making complex systems simple
-
-**Always learning:** New ways to optimize performance, scale systems, and build AI that actually helps people
-
-**Love discussing:** System architecture, AI/ML applications, DevOps best practices, and the future of software engineering
-
----
-
-<div align="center">
-
-### 💬 Let's Build Something Amazing Together!
-
-*"The best way to predict the future is to build it"*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-
-</div>
